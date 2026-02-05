@@ -158,6 +158,7 @@ npm run dev
 ### Option 2: Docker Compose
 
 ```bash
+# Ensure OPENAI_API_KEY is set in your shell or in a local .env file
 # Start all services
 docker-compose up --build
 

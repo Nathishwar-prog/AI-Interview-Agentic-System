@@ -14,7 +14,7 @@ A FastAPI backend for conducting AI-powered mock technical interviews using Auto
 ### Prerequisites
 
 - Python 3.11+
-- PostgreSQL 15+
+- PostgreSQL 15+ (recommended for production)
 - OpenAI API key
 
 ### Installation
@@ -35,6 +35,9 @@ pip install -r requirements.txt
 cp .env.example .env
 # Edit .env with your OpenAI API key and database URL
 ```
+
+By default, the sample `.env` uses SQLite for local development (no additional setup required).
+Switch to PostgreSQL for production or multi-user deployments.
 
 4. Start PostgreSQL (or use Docker):
 ```bash
